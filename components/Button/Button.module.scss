@@ -3,7 +3,7 @@
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  font-family: theme("fontFamily.mono");
+  font-family: theme('fontFamily.mono');
   font-size: 0.8rem;
   font-weight: 800;
 
@@ -12,20 +12,15 @@
   border-radius: 0.4rem;
   color: #fff;
   background-size: 220%;
-  outline: 2px solid theme("colors.indigo.dark");
-  background-image: linear-gradient(
-    120deg,
-    transparent 0%,
-    transparent 50%,
-    theme("colors.purple") 50%
-  );
+  outline: 2px solid theme('colors.grenCold');
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, theme('colors.green') 50%);
   transition: all 0.3s ease-in-out;
 
   &:hover,
   &:active {
     background-position: 100%;
     color: #fff;
-    box-shadow: 0 0 1rem theme("colors.indigo.dark");
+    box-shadow: 0 0 1rem theme('colors.green');
   }
 }
 
@@ -54,7 +49,7 @@
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  font-family: theme("fontFamily.mono");
+  font-family: theme('fontFamily.mono');
   font-size: 0.8rem;
   font-weight: 800;
 
@@ -64,18 +59,13 @@
   color: #fff;
   background-size: 220%;
   outline: 2px solid #fff;
-  background-image: linear-gradient(
-    120deg,
-    transparent 0%,
-    transparent 50%,
-    theme("colors.purple") 50%
-  );
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, theme('colors.grenCold') 50%);
   transition: all 0.3s ease-in-out;
 
   &:hover,
   &:active {
     background-position: 100%;
     color: #fff;
-    box-shadow: 0 0 1rem theme("colors.gray.dark.5");
+    box-shadow: 0 0 1rem theme('colors.gray.dark.5');
   }
 }

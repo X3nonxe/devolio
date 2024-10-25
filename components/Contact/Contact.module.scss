@@ -1,7 +1,7 @@
 .button {
   --primary: #1A171E;
-  --primary-dark: #9f55ff;
-  --shadow: #{rgba(#9f55ff, 0.3)};
+  --primary-dark: #03C988;
+  --shadow: #{rgba(#03C988, 0.3)};
   --text: #fff;
   --text-opacity: 1;
   --success: #eeecff;
@@ -61,7 +61,7 @@
   background-clip: padding-box;
   border-radius: 0.4rem;
   background-size: 220%;
-  outline: 2px solid theme("colors.indigo.dark");
+  outline: 2px solid theme("colors.green");
   color: var(--text);
   transition: all 0.3s ease-in-out;
   -webkit-appearance: none;
@@ -71,7 +71,7 @@
   &:active {
     background-position: 98%;
     color: #fff;
-    box-shadow: 0 0 1rem theme("colors.indigo.dark");
+    box-shadow: 0 0 1rem theme("colors.green");
   }
 
   .plane,

@@ -65,7 +65,7 @@ const Footer = () => {
                   ❤️
                 </span>
               </button>{" "}
-              by <span className="text-white">Shubh Porwal</span>
+              by <span className="text-white">Rohman</span>
             </p>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Footer = () => {
       />
       <style jsx global>{`
         footer {
-          background-image: linear-gradient(270deg, #9f55ff, #7000ff, #8b31ff);
+          background-image: linear-gradient(270deg, #03C988, #00ac56);
         }
       `}</style>
     </footer>

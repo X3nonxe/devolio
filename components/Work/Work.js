@@ -175,8 +175,8 @@ const Work = ({ clientWidth }) => {
                   <span className="relative">
                     y
                     <span className="absolute h-3 w-3">
-                      <span className="animate-ping absolute bottom-[2px] right-[2px] inline-flex h-3 w-3 rounded-full bg-purple opacity-75"></span>
-                      <span className="relative flex justify-end rounded-full h-2 w-2 bg-purple"></span>
+                      <span className="animate-ping absolute bottom-[2px] right-[2px] inline-flex h-3 w-3 rounded-full bg-green opacity-75"></span>
+                      <span className="relative flex justify-end rounded-full h-2 w-2 bg-green"></span>
                     </span>
                   </span>
                 </p>

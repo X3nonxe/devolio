@@ -82,13 +82,14 @@ const Hero = () => {
       </style>
       <div className="flex flex-col pt-40 md:pt-0 select-none">
         <h5
-          className={`${styles.intro} font-mono font-medium text-indigo-light seq`}
+          className={`${styles.intro} font-mono font-medium text-grenCold seq`}
         >
           Hi, my name is
         </h5>
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
-          <span className={`relative ${styles.emphasize} seq`}>Shubh</span>
-          <span className="seq"> Porwal</span>
+          <span className="seq">Ahmad</span>
+          <span className="seq"> Taufiq </span>
+          <span className={`relative ${styles.emphasize} seq `}>Rohman</span>
         </h1>
         <p>
           <span

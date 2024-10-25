@@ -54,14 +54,14 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(112, 0, 255, 0.75);
+  background: theme("colors.grenCold");
   opacity: 0.5;
   border-radius: 1rem;
   transition: all 0.2s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: theme("colors.indigo.dark");
+  background: theme("colors.green");
   opacity: 1;
 }
 
@@ -168,8 +168,8 @@ input[type="checkbox"] {
       // background: theme("colors.white");
       background: linear-gradient(
         to right,
-        theme("colors.indigo.light"),
-        theme("colors.indigo.dark")
+        theme("colors.grenCold"),
+        theme("colors.grenCold")
       );
       margin: auto 1px 0;
       height: 100%;
@@ -261,8 +261,8 @@ input[type="checkbox"] {
               90deg,
               #ffffff 0%,
               #ffffff 50%,
-              #8b31ff 51%,
-              #7000ff 100%
+              #03C988 51%,
+              #00ac56 100%
             );
             background-size: 200% 100%;
             background-clip: text;
@@ -294,8 +294,8 @@ input[type="checkbox"] {
 .text-gradient {
   background: linear-gradient(
     to right,
-    theme("colors.indigo.light"),
-    theme("colors.indigo.dark")
+    theme("colors.grenCold"),
+    theme("colors.green")
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -363,7 +363,7 @@ $bg: #f4faff;
             &:hover {
               &:before {
                 content: "";
-                box-shadow: 0 0 0 5px rgba(#7000ff, 0.5);
+                box-shadow: 0 0 0 5px rgba(#00ac56, 0.5);
               }
             }
             &:before {
@@ -371,7 +371,7 @@ $bg: #f4faff;
               position: absolute;
               width: 16px;
               height: 16px;
-              outline: 3px solid #7000ff;
+              outline: 3px solid #00ac56;
               border-radius: 50%;
               left: 0;
               top: 20%;

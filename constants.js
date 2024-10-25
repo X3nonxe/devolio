@@ -1,12 +1,12 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "X3nonxe",
+  title: "Portfolio | Rohman",
   description:
-    "Shubh Porwal is a Frontend Developer from Kuwait, interested in crafting beautiful and functional applications.",
+    "X3nonxe is a Frontend Developer from Indonesia, interested in crafting beautiful and functional applications.",
   siteUrl: "https://www.shubhporwal.me/",
   twitterHandle: "@shubh731",
   keywords: [
-    "Shubh Porwal",
+    "X3nonxe",
     "Frontend Developer",
     "Web Developer",
     "React Native Developer",
@@ -16,8 +16,6 @@ export const METADATA = {
     "Devfolio",
     "Folio",
   ].join(", "),
-  image:
-    "https://res.cloudinary.com/dywdhyojt/image/upload/v1690572126/preview.png",
   language: "English",
 };
 

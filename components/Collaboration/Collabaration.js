@@ -85,8 +85,8 @@ const Collaboration = ({ clientHeight }) => {
             90deg,
             #ffffff 0%,
             #ffffff 50%,
-            #8b31ff 51%,
-            #7000ff 102%
+            #03C988 51%,
+            #00ac56 102%
           );
           background-size: 200% 100%;
           -webkit-background-clip: text;
