@@ -43,7 +43,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
+  "A Software Engineer",
   "I build things for the web",
   "I create aesthetic and modern apps",
 ];
@@ -51,23 +51,15 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: rohmanahmadtaufiq@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/ahmad-taufiq-rohman/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
-  },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
-  },
-  {
-    name: "twitter",
-    url: "https://twitter.com/shubh731",
+    url: "https://github.com/X3nonxe",
   },
 ];
 
@@ -86,7 +78,7 @@ export const SKILLS = {
     "vite",
     "firebase",
     // "moralis",
-    // "stripe",
+    "stripe",
     "figma",
     "tanstack-query",
   ],
@@ -156,10 +148,10 @@ export const PROJECTS = [
 export const WORK = [
   {
     id: 1,
-    company: "Dukaan",
-    title: "Frontend Developer",
-    location: "Bangalore, Karnataka",
-    range: "December - Current",
+    company: "Ayopay",
+    title: "Software Engineer Intern",
+    location: "Yogyakarta, Indonesia",
+    range: "January - Current",
     responsibilities: [
       "Led creation of a captivating cross-platform e-commerce solution.",
       "Enhanced UX with gamification and personalized push notifications ensuring an ever-improving shopping journey.",
@@ -170,10 +162,10 @@ export const WORK = [
   },
   {
     id: 2,
-    company: "Aviate",
-    title: "Frontend Developer Intern",
-    location: "Goa",
-    range: "May - October 2022",
+    company: "HIMATIKA",
+    title: "Staff IT",
+    location: "Universitas Teknologi Yogyakarta",
+    range: "Sepetember 2022 - Sepetember 2023",
     responsibilities: [
       "Built their flagship product Q-Rate, a voice-based applicant screening platform.",
       "Developed pixel-perfect responsive web applications achieving daily traffic of 1000-2000 users.",
@@ -181,21 +173,7 @@ export const WORK = [
     ],
     url: "https://www.aviate.jobs/",
     video: "/work/aviate.mp4",
-  },
-  {
-    id: 3,
-    company: "Spacenos",
-    title: "Web Developer Intern",
-    location: "Bangalore, Karnataka",
-    range: "September - December 2021",
-    responsibilities: [
-      "Led the Full Stack revamp on the Admin Portal.",
-      "Developed app integration with REST APIs, Google Maps, User Auth, Stripe and other libraries.",
-      "Implemented CRUD features for all the services and providers.",
-    ],
-    url: "https://spacenos.com/",
-    video: "/work/spacenos.mp4",
-  },
+  }
 ];
 
 export const GTAG = "G-5HCTL2TJ5W";

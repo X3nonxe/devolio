@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo } from "react";
 import Typed from "typed.js";
 import { gsap, Linear } from "gsap";
 import { MENULINKS, TYPED_STRINGS } from "../../constants";
@@ -14,14 +14,14 @@ const Hero = () => {
   const targetSection = useRef(null);
   const lottieRef = useRef(null);
 
-  const options = {
+  const options = useMemo(() => ({
     strings: TYPED_STRINGS,
     typeSpeed: 50,
     startDelay: 1500,
     backSpeed: 50,
     backDelay: 8000,
     loop: true,
-  };
+  }), []);
 
   useEffect(() => {
     const typed = new Typed(typedEl.current, options);
@@ -36,7 +36,7 @@ const Hero = () => {
       );
 
     return () => typed.destroy();
-  }, [typedEl, targetSection]);
+  }, [typedEl, targetSection, options]);
 
   // useEffect(() => {
   //   lottie.loadAnimation({

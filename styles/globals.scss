@@ -110,7 +110,7 @@ input[type="checkbox"] {
       ~ {
         .menu {
           pointer-events: auto;
-          visibility: visible !important;
+          visibility: visible;
           > div {
             transform: scale(1);
             transition-duration: 0.75s;
@@ -235,9 +235,9 @@ input[type="checkbox"] {
     > div {
       width: 240vw;
       height: 240vw;
-      transform: scale(0);
+      transform: none !important;
       will-change: transform;
-      border-radius: 50%;
+      border-radius: 0 !important;
       transition: all 0.4s ease;
       backface-visibility: hidden;
       background: rgba(
@@ -255,6 +255,8 @@ input[type="checkbox"] {
         transition: opacity 0.4s ease;
       }
       ul {
+        max-height: 100vh;
+        padding: 20px 0;
         li {
           a {
             background: linear-gradient(
