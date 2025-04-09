@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { gsap, Linear } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import VanillaTilt from "vanilla-tilt";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import { Howl } from "howler";
 import Button from "../Button/Button";
 import styles from "./Work.module.scss";

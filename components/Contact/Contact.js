@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import Filter from 'bad-words';
 import { MENULINKS } from '../../constants';
 import toast, { Toaster } from 'react-hot-toast';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import mail from './mailer';
 import gsap from 'gsap';
 import styles from './Contact.module.scss';
